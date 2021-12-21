@@ -84,6 +84,7 @@ const UpdateInvestor = () => {
                         type="number"
                         id="mobileNo"
                         name="mobileNo"
+                        
                         value={UpdateInvestor.mobileNo}
                         onChange={handleUpdateInvestor}
                         placeholder="Enter Mobile number" />

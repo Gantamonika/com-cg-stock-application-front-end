@@ -45,6 +45,7 @@ const Register = (props) => {
                             className="form-control"
                             name="userName"
                             id="userName"
+                            maxlength="6"
                             className="form-control mb-3"
                             placeholder="Enter username"
                             value={user.userName}
@@ -56,6 +57,7 @@ const Register = (props) => {
                             className="form-control"
                             name="password"
                             id="password"
+                            maxlength="8"
                             className="form-control mb-3"
                             placeholder="Enter password"
                             value={user.password}
