@@ -1,6 +1,5 @@
 import axios from 'axios';
 
-// Create services for other components in this way. 
 
 const getInvestorByIdService = (investorId) => {
     console.log(`getInvestorByIdService`);

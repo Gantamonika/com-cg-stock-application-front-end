@@ -6,10 +6,9 @@ import User from './models/User';
 
 const Login = () => {
 
-    // const history = useHistory();
+   
 
     const [user, setUser] = useState(new User());
-    // const [userLogin, setUserLogin] = useState(new User());
 
     const [credentials, setCredentials] = useState('');
 

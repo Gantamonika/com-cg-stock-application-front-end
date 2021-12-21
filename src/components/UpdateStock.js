@@ -137,7 +137,7 @@ const UpdateStock = () => {
                 </form>
             </div>
             <h4 className=" text-black text-center mt-1">Updated Stock Data:</h4>
-             <p>StockId:{updateStockObj.StockId}</p>  
+               
              <p>StockName:{updateStockObj.stockName}</p> 
              <p>quantity:{updateStockObj.quantity}</p>
              <p>type:{updateStockObj.type}</p> 

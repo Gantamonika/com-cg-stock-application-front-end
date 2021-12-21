@@ -16,7 +16,7 @@ import {
     updateManager,
     deleteManagerById,
   } from "../redux/ManagerSlice";
-  // import CreateManager from "./CreateManager";
+  import CreateManager from "./CreateManager";
   import UpdateManager from "./UpdateManager";
   import { Store } from "redux";
   import { Provider } from "react";
@@ -88,14 +88,21 @@ import {
     };
   
     return (
+
+      <div align="center"
+      style={{
+          backgroundPosition: 'center',
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat'
+      }}>
+     
       <div className="container">
-        <h1 className="display-4 text-primary mt-3 mb-3">Manager Component</h1>
-        <p>
-          Fetch data from backend, store it in redux store and get it to component
-        </p>
+      <h3 className=" text-black text-center mt-3">Manager</h3>
+        <br/>
+       
   
-        <div className="col-12 border border-light shadow p-3 mb-5 bg-white">
-          <p>Find manager by id</p>
+        <div className="col-6 border border-light shadow p-3 mb-5 bg-white">
+        <h4 className=" text-black text-center mt-1">Find Manager By Id</h4>
           <form
             className="form form-group form-primary"
             onSubmit={submitgetmanagerById}
@@ -117,14 +124,14 @@ import {
               value="Find Manager"
             />
           </form>
-          <p>Data from store:</p>
+          <h4 className=" text-black text-center mt-1">Data from store:</h4>
           <table className="table table-light table-striped ">
             <thead>
               <tr>
                 <th>ID</th>
                 <th>Manager Name</th>
                 <th>Email</th>
-                <th>Monile Number</th>
+                <th>Mobile Number</th>
               </tr>
             </thead>
             <tbody>
@@ -140,8 +147,8 @@ import {
         </div>
   
         <div>
-          <div className="col-12 border  border-light shadow p-3 mb-5 bg-white">
-            <p>Find all manager</p>
+          <div className="col-6 border  border-light shadow p-3 mb-5 bg-white">
+          <h4 className=" text-black text-center mt-1">Find all manager</h4>
             <div>
               <form className="form form-group form-primary">
                 <input
@@ -158,7 +165,7 @@ import {
                   <th>ID</th>
                   <th>Manager Name</th>
                   <th>Email</th>
-                  <th>Monile Number</th>
+                  <th>Mobile Number</th>
                 </tr>
               </thead>
               <tbody>
@@ -176,13 +183,13 @@ import {
             </table>
           </div>
         </div>
-        {/* <div className="col-12 border border-light shadow p-3 mb-5 bg-white">
+        <div className="col-6 border border-light shadow p-3 mb-5 bg-white">
           <CreateManager />
-        </div> */}
+        </div>
         
           
-      <div className="col-12 border border-light shadow p-3 mb-5 bg-white">
-        <p>Delete manager by id</p>
+      <div className="col-6 border border-light shadow p-3 mb-5 bg-white">
+      <h4 className=" text-black text-center mt-1">Delete manager by id</h4>
         <form
           className="form form-group form-primary"
           onSubmit={submitdeleteManagerById}
@@ -206,15 +213,13 @@ import {
         </form>
       </div>
 
-      <div className="col-12 border border-light shadow p-3 mb-5 bg-white">
+      <div className="col-6 border border-light shadow p-3 mb-5 bg-white">
 
-                    <UpdateManager/>
+        <UpdateManager/>
 
-             </div>
-
-      <div className="col-12 border border-light shadow p-3 mb-5 bg-white">
-        <p>Some other functionality</p>
       </div>
+</div>
+     
     </div>
   );
 };

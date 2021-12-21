@@ -20,8 +20,8 @@ const Header = () => {
                 <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-dark">
                     <div class="container">
                         <Link className="navbar-brand" to="/">
-                            <img src="https://cdn.w600.comps.canstockphoto.com/conceptual-hand-writing-showing-spell-stock-images_csp75490450.jpg"
-                                height="24px" alt="Capgemini" />
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTy5aLsdBgw-F-pgOPFmMniSyirkhgEOIY7A&usqp=CAU"
+                                height="60px" alt="Capgemini" />
                         </Link>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                             <span class="navbar-toggler-icon"></span>
@@ -50,8 +50,8 @@ const Header = () => {
                 <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-dark">
                     <div class="container">
                         <Link className="navbar-brand" to="/">
-                            <img src="https://cdn.w600.comps.canstockphoto.com/conceptual-hand-writing-showing-spell-stock-images_csp75490450.jpg"
-                                height="24px" alt="Capgemini" />
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTy5aLsdBgw-F-pgOPFmMniSyirkhgEOIY7A&usqp=CAU"
+                                height="60px" alt="Capgemini" />
                         </Link>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                             <span class="navbar-toggler-icon"></span>
@@ -82,8 +82,8 @@ const Header = () => {
                 <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-dark">
                     <div class="container">
                         <Link className="navbar-brand" to="/">
-                            <img src="https://cdn.w600.comps.canstockphoto.com/conceptual-hand-writing-showing-spell-stock-images_csp75490450.jpg"
-                                height="24px" alt="Capgemini" />
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTy5aLsdBgw-F-pgOPFmMniSyirkhgEOIY7A&usqp=CAU"
+                                height="60px" alt="Capgemini" />
                         </Link>
                        
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
@@ -115,8 +115,8 @@ const Header = () => {
                 <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-dark">
                     <div class="container">
                         <Link className="navbar-brand" to="/">
-                            <img src="https://cdn.w600.comps.canstockphoto.com/conceptual-hand-writing-showing-spell-stock-images_csp75490450.jpg"
-                                height="24px" alt="Capgemini" />
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTy5aLsdBgw-F-pgOPFmMniSyirkhgEOIY7A&usqp=CAU"
+                                height="60px" alt="Capgemini" />
                         </Link>
                        
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">

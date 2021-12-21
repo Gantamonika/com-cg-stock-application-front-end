@@ -45,11 +45,10 @@ const UpdateManager = () => {
 
     return (
         <div className="container">
-            <h2 className="display-4 text-primary mt-3 mb-3" >Update manager </h2>
+            <h4 className=" text-black text-center mt-1">Update manager</h4>
 
-            <div className="col-4 border border-light shadow p-3 mb-5 bg-white">
+            <div className="col-8 border border-light shadow p-3 mb-5 bg-white">
             
-            <p>Update New manager</p>
         
             <div id="updateNewManagerDiv">
             <input
@@ -97,11 +96,11 @@ const UpdateManager = () => {
                     <input className="form-control mt-3 btn btn-primary" type="submit" value="UPDATE MANAGER" />
                 </form>
             </div>
-            <p>Updated Manager Data:
+            <h4 className=" text-black text-center mt-1">Updated Manager Data:</h4>
              <p>managerId:{updateManagerObj.managerId}</p>  
              <p>managerName:{updateManagerObj.managerName}</p> 
              <p>email:{updateManagerObj.email}</p>
-             <p>mobileNo:{updateManagerObj.mobileNo}</p> 
+             <p>mobileNo:{updateManagerObj.mobileNo}
          </p>
         </div>
 

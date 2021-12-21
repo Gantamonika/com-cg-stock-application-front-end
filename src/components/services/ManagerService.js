@@ -1,6 +1,5 @@
 import axios from "axios";
 
-// Create services for other components in this way.
 
 const getManagerDetailsService = (managerId) => {
   console.log(`getManagerDetailsService`);
@@ -9,12 +8,12 @@ const getManagerDetailsService = (managerId) => {
 const getAllmanagerService = () => {
   console.log(`getAllmanagerService`);
   return axios.get(`/getAllManager/`);
-  // return axios.get(`/getAllManager`);
+
 };
 
 const addManagerDetailsService = (manager) => {
   console.log(`addManagerDetailsServiceService`);
-  return axios.post(`/addManagerDetails`, manager);
+  return axios.post(`/addManager`, manager);
 };
 
 const updateManagerService = (manager) => {

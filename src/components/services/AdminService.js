@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-// Create services for other components in this way. 
+
 
 const getAdminDetailsService = (adminId) => {
     console.log(`getAdminDetailsService`);

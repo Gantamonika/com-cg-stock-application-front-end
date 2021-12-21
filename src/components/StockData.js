@@ -93,7 +93,7 @@ import {
        
       <div className="container">
           <br/>
-        <h4 className=" text-black text-center mt-1">Stock </h4>
+        <h2 className=" text-black text-center mt-1">Stock </h2>
         <br/>
   
         <div className="col-10 border border-light shadow p-3 mb-5 bg-white">

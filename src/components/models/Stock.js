@@ -7,9 +7,7 @@ class Stock {
     totalNoOfStocks;
     profitLoss;
     status;
-    // companyId;
-    // investorId;
-
+   
 }
 
 export default Stock;

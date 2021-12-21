@@ -1,8 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
-// import Customer from "../../models/Customer";
 import Investor from "../components/models/Investor";
-//import { updateInvestor } from "../redux/InvestorSlice";
 
 
 const UpdateInvestor = () => {
@@ -45,13 +43,11 @@ const UpdateInvestor = () => {
 
     return (
         <div className="container">
-            {/* <h1 className="display-4 text-primary mt-3 mb-3" >Update Investor Component</h1> */}
 
             <div className="col-8 border border-light shadow p-3 mb-5 bg-white">
 
             <h4 className=" text-black text-center mt-1">Update Investor</h4>
             <div className="card-body">
-                {/* <form onSubmit={submitAddEmp}> */}
                 <div id="addNewInvestorDiv">
                     <input
                         type="number"

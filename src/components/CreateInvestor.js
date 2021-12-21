@@ -2,7 +2,6 @@ import React from "react";
 import { Link, useHistory } from "react-router-dom";
 import { useState, useEffect } from "react";
 import axios from "axios";
-//import Manager from "./models/Investor";
 import Investor from "./models/Investor";
 
 const CreateInvestor = (props) => {
@@ -12,10 +11,7 @@ const CreateInvestor = (props) => {
     const [credentials, setCredentials] = useState("");
 
     const handleInvestor = (event) => {
-        // console.log(event.target.name);
-        // console.log(event.target.value);
-        // setManager(event.target.value),
-        // setManager("");
+       
         setInvestor({
 
             ...investor,
@@ -27,14 +23,13 @@ const CreateInvestor = (props) => {
         setInvestor("");
     };
     const submitInvestor = (event) => {
-        // setManager("");
         axios
             .post(`http://localhost:8084/addInvestor`, investor)
             .then((response) => {
                 console.log(response.data);
                 localStorage.setItem("investor", investor);
                 alert("Data Added  Sucessfully");
-                history.push("/investor"); // check this method to navigate
+                history.push("/investor"); 
             })
             .catch((error) => {
                 console.log(error.response);
@@ -118,7 +113,7 @@ const CreateInvestor = (props) => {
                     </div>
                 </div>
             </div>
-            <div>{/* https://material.io/components/dialogs/web#alert-dialog */}</div>
+            <div></div>
         </div>
     );
 };

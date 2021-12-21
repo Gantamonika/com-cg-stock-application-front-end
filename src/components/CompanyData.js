@@ -111,16 +111,11 @@ const [newCompanyObj, setNewCompanyObj] = useState(new Company());
     return (
         <div align="center"
         style={{
-           // backgroundImage: " url(" + " https://media.istockphoto.com/photos/american-country-farm-picture-id177505798?k=20&m=177505798&s=612x612&w=0&h=jFgHLVyAgTQ7DtPF81OqgygnDI4faMQ3RzvYz6PLozs=" + ")",
             backgroundPosition: 'center',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'
         }}>
-        {/* <div className="container"
-            style={{
-                height: "100vh",
-                color: "white"
-            }}></div> */}
+       
 
 <div className="container">
       
@@ -163,25 +158,6 @@ const [newCompanyObj, setNewCompanyObj] = useState(new Company());
                 </div>
                 <p>New Company Data:{displayCompanyObj.companyName} </p>
             </div>
-                 
-                {/* <div id="addNewCompanyDiv">
-                    <input
-                        type="text"
-                        id="companyName"
-                        name="companyName"
-                        value={newCompanyObj.companyName}
-                        onChange={handleAddCompany}
-                        placeholder="Enter Company Name" />
-                         <br/><br/>
-                   
-                     <form className="form form-group form-primary" onSubmit={submitAddCompany}>
-
-                    <input className="mt-3 btn btn-primary" type="submit" value="Add Company" />
-                    </form>
-                </div>
-                <p>New Company Data: {displayCompanyObj.companyName} </p> */}
-            {/* </div> */}
-
              
             <div className="col-6 border border-light shadow p-3 mb-5 bg-white">
             
@@ -216,43 +192,13 @@ const [newCompanyObj, setNewCompanyObj] = useState(new Company());
                     onChange={handleUpdateCompany}
                     placeholder="Enter company Manager" />
                     <br/><br/>  
-                    <form className="form form-group form-primary" onSubmit={submitAddCompany}>
+                    <form className="form form-group form-primary" onSubmit={submitUpdateCompany}>
 
 <input className="mt-3 btn btn-primary" type="submit" value="update Company" />
 </form>
             </div>
-        <p>Updated Company Data: {updateCompanyObj.CompanyId} {updateCompanyObj.companyName} {updateCompanyObj.companyManager}</p>
+        <p>Updated Company Data: {updtCompanyObj.comapnyId} {updtCompanyObj.companyName} {updtCompanyObj.companyManager}</p>
         </div>
-
-            
-            {/* <div id="addNewCompanyDiv">
-            <input
-                    type="text"
-                    id="companyId"
-                    name="companyId"
-                    value={updtCompanyObj.companyId}
-                    onChange={handleUpdateCompany}
-                    placeholder="Enter company Id" />
-                    <br/><br/>
-                <input
-                    type="text"
-                    id="companyName"
-                    name="companyName"
-                    value={updtCompanyObj.companyName}
-                    onChange={handleUpdateCompany}
-                    placeholder="Enter company Name" />
-                    <br/><br/> */}
-                
-               
-
-                {/* <form className="form form-group form-primary" onSubmit={submitUpdateCompany}>
-
-                <input className="mt-3 btn btn-primary" type="submit" value="Update Company" />
-                </form>
-
-            </div>
-        <p>Updated Company Data: {updateCompanyObj.companyId} {updateCompanyObj.companyName} </p>
-        </div> */}
  
         <div className="col-6 border border-light shadow p-3 mb-5 bg-white">
         <h4 className=" text-black text-center mt-1">Delete Company by id</h4>

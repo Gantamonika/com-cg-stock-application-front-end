@@ -36,14 +36,9 @@ const AddAdmin = () => {
     return (
         
         <div className="container">
-        {/* <h1 className="display-4 text-black mt-3 mb-3" >Add New Admin</h1> */}
         <h4 className=" text-black text-center mt-1">Add New Admin</h4>
 
-        <div className="col-10 border border-light shadow p-3 mb-5 bg-white">
- 
-            
-        {/* <h4 className=" text-black text-center mt-1">Add New Admin</h4> */}
-             
+        <div className="col-10 border border-light shadow p-3 mb-5 bg-white">             
             <div id="addNewAdminDiv">
             
                
@@ -105,15 +100,7 @@ const AddAdmin = () => {
                 <td>{displayAdminObj.password}</td>
               </tr>
             </tbody>
-        </table>
-            
-           
-
-
-
-            
-            
-            
+        </table>     
         </div>
         </div>
 

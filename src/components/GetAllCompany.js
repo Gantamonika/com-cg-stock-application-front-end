@@ -36,7 +36,7 @@ const GetAllCompany = () => {
            
 
             <div>
-                <div className="col-9 border border-light shadow p-3 mb-5 bg-white">
+                <div className="col-12 border border-light shadow p-3 mb-5 bg-white">
                     {/* <p>Find all companies</p> */}
                     <div>
                         <form className="form form-group form-primary">

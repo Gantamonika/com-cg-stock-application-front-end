@@ -75,16 +75,11 @@ const InvestorData = () => {
     return (
         <div align="center"
         style={{
-           // backgroundImage: " url(" + " https://media.istockphoto.com/photos/american-country-farm-picture-id177505798?k=20&m=177505798&s=612x612&w=0&h=jFgHLVyAgTQ7DtPF81OqgygnDI4faMQ3RzvYz6PLozs=" + ")",
-            backgroundPosition: 'center',
+           // backgroundImage: `url("https://cdn.corporatefinanceinstitute.com/assets/investor-1024x683.jpeg")`,            backgroundPosition: 'center',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'
         }}>
-        {/* <div className="container"
-            style={{
-                height: "100vh",
-                color: "white"
-            }}></div> */}
+       
         <div className="container">
             <div>
             <h1 className="display-4 text-strong mt-3 mb-3" ><b>Investor</b> </h1>

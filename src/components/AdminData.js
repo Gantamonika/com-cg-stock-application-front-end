@@ -71,7 +71,6 @@ const AdminData = () => {
 
         <div align="center"
         style={{
-           // backgroundImage: " url(" + " https://media.istockphoto.com/photos/american-country-farm-picture-id177505798?k=20&m=177505798&s=612x612&w=0&h=jFgHLVyAgTQ7DtPF81OqgygnDI4faMQ3RzvYz6PLozs=" + ")",
             backgroundPosition: 'center',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'
@@ -159,9 +158,6 @@ const AdminData = () => {
                         </tbody>
                     </table>
                 </div>
-            
-
-
         </div>
         </div>
     );

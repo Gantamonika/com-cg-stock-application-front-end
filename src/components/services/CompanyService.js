@@ -1,5 +1,4 @@
 import axios from 'axios';
-// Create services for other components in this way. 
 
 const addCompanyInfoService = (company) => {
     console.log(`getCompanyByIdService`);
